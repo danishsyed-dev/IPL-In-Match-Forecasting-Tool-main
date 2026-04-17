@@ -66,7 +66,7 @@ grid_search = GridSearchCV(
     cv=cv,
     scoring=scoring_metrics,
     refit='log_loss',
-    n_jobs=-1,
+    n_jobs=2,            # Use only 2 threads to keep your laptop responsive
     return_train_score=True
 )
 
