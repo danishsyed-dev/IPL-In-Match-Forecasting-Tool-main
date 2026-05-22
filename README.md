@@ -38,8 +38,8 @@ The project uses a **Random Forest Classifier** with hyperparameter tuning and i
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/danishsyed-dev/IPL-In-Match-Forecasting-Tool-main
+   cd IPL-In-Match-Forecasting-Tool-main
 
     pip install -r requirements.txt
     pandas
